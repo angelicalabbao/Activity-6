@@ -1,0 +1,59 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: aliceblue;
+}
+
+.container {
+ padding: 20px;
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
+ gap: 20px;
+}
+
+.formCard {
+ padding: 50px;
+ grid-column: span 2;
+ background: linear-gradient(to bottom, green, #33333);
+ border-radius: 15px;
+ color: white;
+}
+
+.dataContent {
+ border: 5px solid black;
+ border-radius: 15px;
+ padding: 20px;
+ grid-column: span 4;
+ min-height: 300px;
+}
+
+.bg {
+ background-color: white;
+ box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+ }
+
+.formGroup {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 15px;
+}
+
+.formGroup label {
+ font-size: 15px;
+ margin-bottom: 5px;
+}
+
+.fromGroup input, .formGroup textarea {
+ border-radius: 3px;
+ padding: 8px;
+ border: none;
+ outline: none;
+}
+
+.btn {
+ padding: 10px 20px;
+ cursor: pointer;
+ background-color: #444;
+ color: white;
+ border: 1px solid white;
+ border-radius: 5px;
+}
